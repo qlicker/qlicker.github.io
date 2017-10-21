@@ -1,5 +1,6 @@
 ---
 layout: default
+permalink: /
 ---
 
 ### Welcome to the Qlicker Guide!
