@@ -8,6 +8,6 @@ Qlicker is an application that will make it easier for professors to integrate s
 
 
 ### Using Qlicker
-* [Guide for Admins](/guide/admin)
-* [Guide for Professors](/guide/professor)
-* [Guide for Students](/guide/student)
+* [Guide for Admins](/guide/admin.md)
+* [Guide for Professors](/guide/professor.md)
+* [Guide for Students](/guide/student.md)

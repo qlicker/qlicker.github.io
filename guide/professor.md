@@ -1,7 +1,6 @@
 ---
 layout: page
 title: For Professors
-permalink: /guide/professor
 ---
 
 1. [Starting Up](#starting-up)

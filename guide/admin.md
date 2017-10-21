@@ -1,7 +1,6 @@
 ---
 layout: page
 title: For Admins
-permalink: /guide/admin
 ---
 
 1. [Starting Up](#starting-up)

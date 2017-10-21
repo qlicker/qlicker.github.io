@@ -1,7 +1,6 @@
 ---
 layout: page
 title: For Students
-permalink: /guide/student
 ---
 
 1. [Creating an Account](#creating-an-account)
