@@ -9,7 +9,7 @@ title: For Professors
 4. [Creating Questions](#creating-questions)
 5. [Creating Sessions](#creating-sessions)
 6. [Running Sessions](#running-sessions)
-7. [Viewing Responses](#viewing-responses)
+7. [Viewing Responses and Grading](#viewing-responses-and-grading)
 
 ## Starting Up
 To obtain an account with professor privileges, another professor or administrator must created your account. Contact a fellow professor or your system administrator.
@@ -52,7 +52,9 @@ The question edit form will show up.
 
 ![Question Edit Item](/images/prof/question_editor.png)
 
-+ **Question Field** This is where the question text is entered. The text can be  modified using the toolbar above the form. 
++ **Points** The number of points a student recieve for getting a question correctly. This can be used to weigh a question more heavily by making the number of points greater than one, or by making a question not count for credit.
++ **Question Tags:** Tags can be added to the question to make searching and selecting questions easier. Questions can be shared across courses by using a tag name for a different course tag.
++ **Question Field** This is where the question text is entered. The text can be modified using the toolbar above the form. 
 + **Answers:** There are four different questions types. See below for more details. 
 
 If you are editing they question in your Question Library, you'll see the following items. 
@@ -60,12 +62,11 @@ If you are editing they question in your Question Library, you'll see the follow
 + **Duplicate:** This button creates a copy of the question
 + **Delete:** This deletes the currently selected question
 + **Make Public/Private:** Public questions can be viewed by any Professor for any course. Private is tied to only to your account. 
-+ **Question Tags:** Tags can be added to the question to make searching and selecting questions easier. 
 
 Each edit created will automatically save the question.
 
 #### Question Types 
-There are four question types to choose from; multiple choice, multi-select, true or false, and short answer. For multiple choice and multi-select, there can be a max of 6 answers to choose from. Like question text, the answers can be modified using the toollbar. Correct and Incorrect options can be toggled by clicking on the checkbox to the right of each answer.
+There are four question types to choose from; multiple choice, multi-select, true or false, and short answer. For multiple choice and multi-select, there can be a max of 6 answers to choose from. Like question text, the answers can be modified using the toollbar. Correct and Incorrect options can be toggled by clicking on the checkbox to the right of each answer. For multiple choice and true/false questions, the student is awarded full points if their response matches the expected result. For multi-select questions, the score is (# ofrcorrect responses - # of incorrect responses)/correct answers. With short answer questions, the points awarded to the student must be manually determined by a professor or TA. 
 
 ### Using the Question Library
 The Question Library can be found via the 'Questions' dropdown menu. This page contains all questions saved to the library, for all courses you own. On this page, you can create new questions, search for questions using keywords, type, or tags, and access Public and Student-submitted questions.
@@ -143,7 +144,18 @@ Presentation Mode is for when your current display is visible by the students. T
 ### Dual Display Mode
 Dual Display Mode is to be used when there is a second screen used to display information. To toggle this mode, select '2nd Display'. A second window will open with only the current question displayed. You can then use this on a second display.
 
-## Viewing Responses
-There are two ways to review session results; one is to select 'Response Results' from the navigation bar, then select the course. The second way is to go to the course home page and select 'Review Session Results'. 
+### Creating a Quiz
+A professor can create a [quiz](/guide/student#quizzes) by selecting the 'Quiz' checkbox when creating a new session. Quizzes can be graded after a session is finished.
 
-The current view showcases the percentage of questions answered by each student per session. To see the results per session, click 'Participation by Session'. This view displays each session that has results with the number of students that were active in the session, and a list of questions and the number of responses each question received. Clicking on each individual question shows a table with all students that answered the question and a graph showing the distribution of the answers received. 
+## Viewing Responses and Grading
+Responses to a specific session can be seen by clicking the "review results" dropdown when viewing a course. A red "finished" session box implies that it could not be fully auotgraded, such as if there was a short answer question.
+
+![review-session](/images/prof/session_dropdown.png)
+
+Grading for a specific session can be done by clicking the "grade session" dropdown. Responses that can can be automatically graded are done so by default, but can be manually overrided.
+
+![session-grades](/images/prof/manual-grading-1.png)
+
+The "grades" tab in the navigation bar can also be used to summarize the grades awarded to all the students over multiple sessions. Grade calculations need to be manually recomputed each time for performance reasons. If a session was modified in order to change the correct answer for a question, the instructor will need to click the "re-calculate all grades" button.
+
+![session-grades](/images/prof/manual-grading-2.png)

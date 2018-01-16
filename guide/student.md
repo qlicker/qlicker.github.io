@@ -8,6 +8,7 @@ title: For Students
 3. [Submitting Questions](#submitting-questions)
 4. [Sessions](#sessions)
 5. [Checking Participation](#checking-participation)
+6. [Using the Question Library](#question-library)
 
 ## Creating an Account
 To create an account, go to the Qlicker login page and click 'Create an Account'. 
@@ -52,6 +53,12 @@ Students can only participate in Live sessions. When a Live session shows up eit
 Professors have the ability to hide questions or disallow responses, so please listen to the Professor for details for each session.
 
 When a question is active, you can answer it by selecting a multiple choice or true/false option, selecting multiple options if the question is multi-select, or entering text in a field if the question is short answer. Once an option is selected, the 'Submit' button will be enabled. To submit your selection, click on the 'Submit' button. You cannot change an answer after submitting it. After clicking 'Submit', a success message will show up, and the button will say 'Submitted'. 
+
+
+### Quizzes
+Quizzes are similar to live sessions, except that all questions are mandatory and available to the student at once. After a student submits a response to a quiz, they cannot change it unless the professor allows another attempt.
+
+![Sample Quiz](/images/student/sample_quiz.png)
 
 ## Checking Participation
 After finishing a session, the session will show up under the course's page as Finished. Select a Finished session to view participation grades.
