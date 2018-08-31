@@ -10,6 +10,7 @@
 ## Logging In Through Your Institution
 If your institution has integrated Qlicker with their single sign-on, click 'Login Through SSO'. This will take you to the institution's sign-on page. 
 
+
 ![SSO Login](/images/student/sso_login.png)
 
 If your institution has not linked Qlicker with single sign-on, you wil have to create an account manually. 
