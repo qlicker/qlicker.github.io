@@ -1,12 +1,11 @@
-# User Manual - Administrators
+# User Manual - Students
 
-- [User Manual - Administrators](#user-manual---administrators)
-  - [Logging In Through Your Institution](#logging-in-through-your-institution)
-  - [Creating an Account](#creating-an-account)
-  - [Enrolling in Courses](#enrolling-in-courses)
-  - [Submitting Questions](#submitting-questions)
-  - [Sessions](#sessions)
-  - [Checking Participation](#checking-participation)
+  1. [Logging In Through Your Institution](#logging-in-through-your-institution)
+  2. [Creating an Account](#creating-an-account)
+  3. [Enrolling in Courses](#enrolling-in-courses)
+  4. [Submitting Questions](#submitting-questions)
+  5. [Sessions](#sessions)
+  6. [Checking Participation](#checking-participation)
 
 ## Logging In Through Your Institution
 If your institution has integrated Qlicker with their single sign-on, click 'Login Through SSO'. This will take you to the institution's sign-on page. 
