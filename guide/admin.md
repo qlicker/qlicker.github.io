@@ -1,7 +1,9 @@
 # User Manual - Administrators
 
 1. [Starting Up](#starting-up)
-2. [Creating Accounts](#creating-accounts)
+2. [Managing Users](#managing-users)
+3. [Managing Images](#managing-images)
+4. [Managing Single Sign-On](#managing-single-sign-on)
 
 ## Starting Up
 No accounts are created intially in the system. To create the first admin account, first sign up on the site for a student account, then set the `admin` role manually in the database.
