@@ -175,6 +175,8 @@ There are two ways to review session results; one is to select 'Grades' from the
 
 ![finished session options](/images/prof/finished_session_options.png)
 
+Note: The finished sessions will be marked in red if no review is allowed. To allow students to review their session results, select 'Allow Review' from the session item.
+
 The current view showcases the percentage of questions answered by each student per session. To see the results per session, click 'Participation by Session'. This view displays each session that has results with the number of students that were active in the session, and a list of questions and the number of responses each question received. Clicking on each individual question shows a table with all students that answered the question and a graph showing the distribution of the answers received. 
 
 ### Viewing the Full Course Grades
