@@ -45,7 +45,7 @@ The main course page (Course Home) will give you an overview of the course, and 
 ## Managing Course Details 
 The course details section of the main course page allows you to change several aspects of the course.
 
-![Course Details](images/prof/course_details.png)
+![Course Details](/images/prof/course_details.png)
 
 ### Managing Groups
 This button will bring you to a page that allows different categories of groups to be made, and to place students in those groups. Currently, the ability to place students in groups is useful when manually grading student submissions (e.g. short answers). The main use case is to group students by TA, so that each TA can be responsible for grading a subset of students.
@@ -62,7 +62,7 @@ Once there are students enrolled, the "Classlist" section will populate,  from w
 
 ### Course options
 The Course options button will open a dialog allowing you to modify the name of the course, as well as turn on/off certain features.
-![Course Details](images/prof/course_options.png)
+![Course Options](/images/prof/course_options.png)
 
 It is strongly recommended that you require students to have a verified email address in order to self-enroll into the course (this is the default).
 
