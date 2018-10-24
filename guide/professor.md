@@ -11,10 +11,10 @@
 9. [Grading Responses](#grading-responses)
 
 ## Starting Up
-To obtain an account with professor privileges, another professor or administrator must created your account. Contact a fellow professor or your system administrator.
+To obtain an account with professor privileges, another professor with promoting privileges or and administrator must promote your account. 
 
 ### Giving others access to a professor account
-Access the account promotion menu from the top right of the nav bar. 
+Some professors can promote other accounts to professor (administrators can give this right to a professor acccount). If your account can promote others to professor, access the account promotion menu from the top right of the nav bar. 
 
 ![Promote account](/images/prof/promote_1.png)
 
@@ -24,39 +24,49 @@ An professor account can create courses and run sessions within their course.
 
 
 ## Creating Courses
-There are two ways to create a course; first is by going to the Qlicker Home page and clicking 'Create Course', and second is by selecting 'Courses' in the navigation bar, then 'All Courses', and clicking 'Create Course'.
+There are two ways to create a course; first is by going to the Qlicker Home page once you are logged in and clicking 'Create Course', and second is by selecting 'Courses' in the navigation bar, then 'All Courses', and clicking 'Create Course'.
 
-Enter the following information in the prompt:
+Enter the following information in the prompt (**all fields** are required):
 + **Name:** The name of the course
 + **Department Code:** The course's department code (ex. PHYS)
 + **Course Number:** The number of the course (ex. 106)
 + **Section:** The course's section (ex. 001)
 + **Semester:** The current semester (ex F16)
 
+You can modify these values later.
+
 ### Navigating Courses
-The course should show up on both the Qlicker Home page, the Courses page, and through the dourse dropdown at the top of the page.
+You can change which course you are currently in through the Qlicker Home page, the Courses page, and through the dourse dropdown at the top of the page.
 
 ![View Page Container Buttons](/images/prof/page_container_buttons.png)
 
-## Managing Course Details 
+The main course page (Course Home) will give you an overview of the course, and allow to make course-level changes.
 
-### Enrolling Students in Your Courses
-To allow students to enrol in one of your courses, you need to provide a 6-digit enrolment code. This can be found under "Course Details" on the course's main page. To get to the course main page, select the desired course in either the Qlicker Home page, the Courses page, or the 'Courses' dropdown menu.
+## Managing Course Details 
+The course details section of the main course page allows you to change several aspects of the course.
 
 ![Course Details](images/prof/course_details.png)
 
+### Managing Groups
+This button will bring you to a page that allows different categories of groups to be made, and to place students in those groups. Currently, the ability to place students in groups is useful when manually grading student submissions (e.g. short answers). The main use case is to group students by TA, so that each TA can be responsible for grading a subset of students.
+
+### Adding Teaching Assistants/Instructors To Your Courses
+To add a TA to your course, select 'Add Instructor/TA' and enter their Qlicker email. TAs are student accounts that have all the same privileges as professors, except modifying the course options and changing the course enrollments (TA and student).
+
+### Adding students to the course
+The main mechanism for students to enroll in a course is for them to go to their home page on Qlicker and add the enrollment code for the course (which you can change by clicking on "new"). 
+
 Additionally, you can directly add a student to your course by selecting 'Add Student', and entering their Qlicker email.
 
-Once there are students enrolled, the "Classlist" section will populate, where you can remove students from the classlist. 
+Once there are students enrolled, the "Classlist" section will populate,  from which you can also remove students. 
 
-### Adding Teaching Assistants To Your Courses
-To add a TA to your course, select 'Add Instructor/TA' and enter their Qlicker email. TAs will have access to the full suite of professor capabilites aside from adding additional TAs.
+### Course options
+The Course options button will open a dialog allowing you to modify the name of the course, as well as turn on/off certain features.
+![Course Details](images/prof/course_options.png)
 
-### Requiring Verified Emails in Your Courses
-Selecting 'Require Verified Email' in a course will enforce students to first verify their email before having access to the course. This is not recommded if Qlicker is using single sign on. 
+It is strongly recommended that you require students to have a verified email address in order to self-enroll into the course (this is the default).
 
-### Allowing Unapproved Questions
-Selecting 'Allow Unapproved Questions' lets all questions created by students have the 'public' property. More information about public questions below.
+You can also allow students to submit questions to a question library for the course. Student questions are "unapproved" by default, and must be approved by a TA or Professor before they will show up in the course question library or the course public library.
 
 ## Creating Questions
 Questions can either be created within a [session](#creating-sessions) or by going to the Questions Library via 'My Question Library' in the 'Questions' dropdown menu. Click 'New Question' to create a question.
