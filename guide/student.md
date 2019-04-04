@@ -6,6 +6,7 @@
   4. [Submitting Questions](#submitting-questions)
   5. [Sessions](#sessions)
   6. [Checking Participation](#checking-participation)
+  7. [Practice Sessions](#practice-sessions)
 
 ## Logging In Through Your Institution
 If your institution has integrated Qlicker with their single sign-on, click 'Login Through SSO'. This will take you to the institution's sign-on page. 
@@ -69,4 +70,15 @@ After finishing a session, the session will show up under the course's page as F
 The statistics are number of answers submitted based on the questions asked in the session. 
 
 You can also view participation across all sessions by selecting 'Grades' from the navigation bar.
+
+## Practice Sessions
+Qlicker offers an easy way to study and learn course material in a way that is both helpful and intuitive.
+
+From the course homepage of your choosing, simply click on the **Create Practice Quiz** button and select the number of questions and question tags you would like to use.
+
+![Create Practice Quiz Modal](/images/student/practice_quiz.png)
+
+Qlicker will automatically create a practice quiz for you to work through using randomly chosen questions from the Qlicker library or instructor approved questions matching your tags for you to study from.
+
+When you are done writing the practice quiz, you are given the opporunity to view the answers and compare them to your own.
 
